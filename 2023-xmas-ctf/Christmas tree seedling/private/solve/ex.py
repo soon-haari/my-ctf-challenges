@@ -224,7 +224,7 @@ if __name__ == "__main__":
 	assert s_str == s_int1.to_bytes(10000, "big")[-len(s_str):].decode() == imp
 
 
-	io = process(["python3", "chall.py"])
+	io = remote("haari.me", 1225)
 
 	io.sendlineafter(b": ", str(s_int1).encode())
 	io.sendlineafter(b": ", str(s_int2).encode())

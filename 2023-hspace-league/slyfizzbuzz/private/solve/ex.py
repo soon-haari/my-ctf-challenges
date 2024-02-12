@@ -116,7 +116,7 @@ def fizzbuzz(n):
 if __name__ == "__main__":
 
     # io = remote("localhost", 1013)
-    io = remote("54.180.98.27", 1013)
+    io = remote("haari.me", 1013)
 
     size = 5000
 
