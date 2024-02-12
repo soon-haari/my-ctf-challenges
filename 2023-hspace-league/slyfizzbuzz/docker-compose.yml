@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    slyfizzbuzz:
+        container_name: slyfizzbuzz
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "1013:1013"

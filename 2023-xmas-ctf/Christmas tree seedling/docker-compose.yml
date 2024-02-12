@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    christmas:
+        container_name: christmas
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "1225:1225"
