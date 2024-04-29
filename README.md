@@ -4,10 +4,7 @@
 
 |Name|Info|Difficulty|CTF|Concept|
 |---|---|---|---|---|
-|f, l and ag|Crypto, 1 solve|Hard|2024 Dreamhack Invitational|Multivariate Franklin-Reiter attack|
-
-
-### 2023
+|f, l and ag|Crypto, 1 solve|Hard|2024 Dreamhack Invitational Quals|Multivariate Franklin-Reiter attack|
 
 |Name|Info|Difficulty|CTF|Concept|
 |---|---|---|---|---|
