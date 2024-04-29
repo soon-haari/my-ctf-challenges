@@ -4,7 +4,7 @@
 
 |Name|Info|Difficulty|CTF|Concept|
 |---|---|---|---|---|
-|f, l and ag|Crypto, 1 solve|Hard|2024 Dreamhack Invitational Quals|Multivariate Franklin-Reiter attack|
+|[f, l and ag](http://soon.haari.me/haarime/flandag/)|Crypto, 1 solve|Hard|2024 Dreamhack Invitational Quals|Multivariate Franklin-Reiter attack|
 
 ### 2023
 
