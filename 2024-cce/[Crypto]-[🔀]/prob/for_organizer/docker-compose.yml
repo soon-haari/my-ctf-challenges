@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    swap:
+        container_name: swap
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "3771:3771"
