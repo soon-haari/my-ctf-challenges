@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    gcm:
+        container_name: gcm
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "9999:9999"
