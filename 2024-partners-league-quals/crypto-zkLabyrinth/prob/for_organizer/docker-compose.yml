@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    zklabyrainth:
+        container_name: zklabyrainth
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "8786:8786"

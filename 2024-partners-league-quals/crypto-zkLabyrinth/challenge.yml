@@ -1,0 +1,11 @@
+name: zkLabyrinth
+category: crypto
+difficulty: hard
+cpu_spec: 1
+mem_spec: 512
+port: 8786
+description: "![](https://media.discordapp.net/attachments/1279579536912285719/1284173405201109035/zk.jpeg?ex=66e5ab2e&is=66e459ae&hm=e9b5a99564aeafc325686145f8e09de6291c927fc2b2e52cdfbf08401f058d20&=&format=webp&width=878&height=700)"
+
+flag: hspace{LLL_for_a_maze_chall??_The_solution_is_actually_very_similar_to_exploiting_some_ZK_implementations_=)}
+chall_dir: crypto-zkLabyrinth
+compose_file: crypto-zkLabyrinth/prob/for_organizer/docker-compose.yml

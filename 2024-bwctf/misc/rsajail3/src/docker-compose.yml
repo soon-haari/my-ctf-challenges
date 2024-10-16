@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    rsajail3:
+        container_name: rsajail3
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "7773:7773"
