@@ -4,7 +4,7 @@
 
 |Name|Info|Difficulty|CTF|Concept|
 |---|---|---|---|---|
-|[Collider](https://github.com/soon-haari/my-ctf-challenges/blob/main/2024-bwctf/crypto/collidere)|Crypto, 0 solves|4.5|2024 Blue Water CTF|Miller-Rabin test bypass, Mersenne twister|
+|[Collider](https://github.com/soon-haari/my-ctf-challenges/blob/main/2024-bwctf/crypto/collider)|Crypto, 0 solves|4.5|2024 Blue Water CTF|Miller-Rabin test bypass, Mersenne twister|
 |[Counter Strike](https://github.com/soon-haari/my-ctf-challenges/blob/main/2024-bwctf/crypto/counter_strike)|Crypto, 8 solves|3.5|2024 Blue Water CTF|GCM mode|
 |[RSAjail-1](https://github.com/soon-haari/my-ctf-challenges/blob/main/2024-bwctf/misc/rsajail1)|Misc, 8 solves|3.5|2024 Blue Water CTF|Pyjail, xgcd, exponentiation-by-squaring|
 |[RSAjail-2](https://github.com/soon-haari/my-ctf-challenges/blob/main/2024-bwctf/misc/rsajail2)|Misc, 20 solves|3|2024 Blue Water CTF|Pyjail, xgcd, exponentiation-by-squaring|
