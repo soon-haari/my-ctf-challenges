@@ -1,5 +1,11 @@
 # My CTF challenges
 
+### 2025
+
+|Name|Category|Solves|Difficulty|CTF|Concept|
+|---|---|---|---|---|---|
+|[These Walls](https://github.com/soon-haari/my-ctf-challenges/blob/main/2025-codegate/crypto-thesewalls)|Crypto|5|3.5|Codegate Quals|MOV attack, distortion map|
+
 ### 2024
 
 |Name|Category|Solves|Difficulty|CTF|Concept|
