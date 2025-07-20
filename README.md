@@ -5,6 +5,11 @@
 |Name|Category|Solves|Difficulty|CTF|Concept|
 |---|---|---|---|---|---|
 |[These Walls](https://github.com/soon-haari/my-ctf-challenges/blob/main/2025-codegate/crypto-thesewalls)|Crypto|5|3.5|Codegate Quals|MOV attack, distortion map|
+|[Jerry's flag checker](https://github.com/soon-haari/my-ctf-challenges/blob/main/Alpacahack-round-13/jerrys-flag-checker)|Crypto|21|1|Alpacahack round 13|Encoding, Oracle|
+|[Jerr0-day](https://github.com/soon-haari/my-ctf-challenges/blob/main/Alpacahack-round-13/jerr0-day)|Crypto|8|2|Alpacahack round 13|Elliptic Curve, Pairing|
+|[MissingNo.1](https://github.com/soon-haari/my-ctf-challenges/blob/main/Alpacahack-round-13/missingno1)|Crypto|7|2|Alpacahack round 13|Field, LLL|
+|[MissingNo.2](https://github.com/soon-haari/my-ctf-challenges/blob/main/Alpacahack-round-13/missingno2)|Crypto|5|2|Alpacahack round 13|Field|
+|[Polynomial Puzzle](https://github.com/soon-haari/my-ctf-challenges/blob/main/Alpacahack-round-13/polynomial-puzzle)|Crypto|2|3.5|Alpacahack round 13|LLL|
 
 ### 2024
 

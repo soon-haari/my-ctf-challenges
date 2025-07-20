@@ -1,0 +1,6 @@
+services:
+  jerr0-day:
+    build: ./
+    ports:
+      - ${PORT:-9997}:9997
+    restart: unless-stopped

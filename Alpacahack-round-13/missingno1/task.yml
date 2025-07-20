@@ -1,0 +1,19 @@
+---
+name: MissingNo.1
+canonicalName: missingno1
+description: >
+  I think the original challenge from Neobeo is too easy...
+  *This is a revenge challenge of [MissingNo.](https://github.com/AustICCQuals/Challenges2025/tree/main/crypto/missingno) from OICC 2025.*
+descriptionJa: >
+  I think the original challenge from Neobeo is too easy...
+  *This is a revenge challenge of [MissingNo.](https://github.com/AustICCQuals/Challenges2025/tree/main/crypto/missingno) from OICC 2025.*
+flag: "Alpaca{Sad_if_you_used_more_than_2_connections__>:(}"
+flagFormat: Alpaca{...}
+categories:
+  - crypto
+tags: ["Galois Fields", "Linear Algebra"]
+authors:
+  - soon-haari
+openAt: 3000-01-01 12:00:00+09:00
+isListed: true
+isArchived: false

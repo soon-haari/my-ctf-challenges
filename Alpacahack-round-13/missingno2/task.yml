@@ -1,0 +1,19 @@
+---
+name: MissingNo.2
+canonicalName: missingno2
+description: >
+  This time the fix must have made it safe enough!
+  *This is a revenge challenge of [MissingNo.](https://github.com/AustICCQuals/Challenges2025/tree/main/crypto/missingno) from OICC 2025.*
+descriptionJa: >
+  This time the fix must have made it safe enough!
+  *This is a revenge challenge of [MissingNo.](https://github.com/AustICCQuals/Challenges2025/tree/main/crypto/missingno) from OICC 2025.*
+flag: "Alpaca{Oh_I_forgor_GF_allows_these_weird_values_:'(}"
+flagFormat: Alpaca{...}
+categories:
+  - crypto
+tags: ["Galois Fields", "Linear Algebra"]
+authors:
+  - soon-haari
+openAt: 3000-01-01 12:00:00+09:00
+isListed: true
+isArchived: false

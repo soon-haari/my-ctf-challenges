@@ -1,0 +1,19 @@
+---
+name: Polynomial Puzzle
+canonicalName: polynomial_puzzle
+description: >
+  You know you have to kill Daki and Gyutaro at the same to beat them right?
+  *This is a revenge challenge of Polynomial Game from LakeCTF '24-'25 Finals.*
+descriptionJa: >
+  You know you have to kill Daki and Gyutaro at the same to beat them right?
+  *This is a revenge challenge of Polynomial Game from LakeCTF '24-'25 Finals.*
+flag: "Alpaca{Sorry_for_BKZ_requiring_params_but_I_had_to_block_the_naive_solution_>:)}"
+flagFormat: Alpaca{...}
+categories:
+  - crypto
+tags: ["Polynomials", "LLL"]
+authors:
+  - soon-haari
+openAt: 3000-01-01 12:00:00+09:00
+isListed: true
+isArchived: false

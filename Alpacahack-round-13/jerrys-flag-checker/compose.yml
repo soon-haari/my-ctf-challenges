@@ -1,0 +1,6 @@
+services:
+  jerrys-flag-checker:
+    build: ./
+    ports:
+      - ${PORT:-9999}:9999
+    restart: unless-stopped

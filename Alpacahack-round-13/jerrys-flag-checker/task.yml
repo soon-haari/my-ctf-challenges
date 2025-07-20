@@ -1,0 +1,17 @@
+---
+name: Jerry's flag checker
+canonicalName: jerrys-flag-checker
+description: >
+  Jerry will verify your flag for you!
+descriptionJa: >
+  Jerry will verify your flag for you!
+flag: "Alpaca{ASCII_oracle_attack!!}"
+flagFormat: Alpaca{...}
+categories:
+  - crypto
+tags: ["Oracle"]
+authors:
+  - soon-haari
+openAt: 3000-01-01 12:00:00+09:00
+isListed: true
+isArchived: false

@@ -1,0 +1,17 @@
+---
+name: Jerr0-day
+canonicalName: jerr0-day
+description: >
+  Jerry thinks he discovered a 0-day!
+descriptionJa: >
+  Jerry thinks he discovered a 0-day!
+flag: "Alpaca{Not-a-0day-https://github.com/Consensys/gnark-crypto/blob/master/ecc/bn254/g2.go#L208-L226}"
+flagFormat: Alpaca{...}
+categories:
+  - crypto
+tags: ["Elliptic Curve"]
+authors:
+  - soon-haari
+openAt: 3000-01-01 12:00:00+09:00
+isListed: true
+isArchived: false
