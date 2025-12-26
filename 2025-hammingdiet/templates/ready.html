@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="/static/rose.webp" type="image/x-icon">
+    <title>The one and only jerryctf</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Fira+Code&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #0f0;
+            font-family: 'Press Start 2P', monospace;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #0f0;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            background: #111;
+            color: #0f0;
+            border: 2px solid #0f0;
+            padding: 10px;
+            width: 300px;
+            font-family: inherit;
+        }
+
+        button {
+            background: #0f0;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            font-family: inherit;
+            cursor: pointer;
+            box-shadow: 0 0 10px #0f0;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background: #1f1;
+            box-shadow: 0 0 20px #0f0;
+        }
+
+        #source {
+            margin-top: 30px;
+            white-space: pre-wrap;
+            background: #111;
+            color: #0f0;
+            border: 1px solid #0f0;
+            padding: 20px;
+            display: none;
+            max-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            overflow-x: auto;
+            font-family: 'Fira Code', monospace;
+            font-size: 12px;
+        }
+
+        @keyframes float {
+            0%   { transform: translateY(0); }
+            50%  { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #0ff;
+            font-family: 'Press Start 2P', monospace;
+            white-space: pre-wrap;
+            animation: float 2s ease-in-out infinite;
+            transition: all 0.3s ease-in-out;
+        }
+
+
+        .star {
+            position: fixed;
+            pointer-events: none;
+            opacity: 0;
+            animation: fadeOut 2s ease-out forwards;
+        }
+
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+                transform: scale(var(--scale, 1));
+            }
+            100% {
+                opacity: 0;
+                transform: scale(calc(var(--scale, 1) * 1.2));
+            }
+        }
+
+         #bestScore { display: inline-flex; align-items: center; gap: 8px; white-space: normal; }
+        .trophy { height: 60px; vertical-align: middle; image-rendering: pixelated; }
+
+        #countdown {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #0ff;
+            text-shadow: 0 0 8px #0ff;
+        }
+
+        @keyframes float {
+            0%   { transform: translateY(0); }
+            50%  { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+
+        #advent-link {
+            display: inline-block;
+            margin-top: 18px;
+            color: #0f0;
+            font-size: 16px;
+            text-decoration: none;
+            text-shadow: 0 0 8px #0f0;
+
+            animation: float 2s ease-in-out infinite;
+            transition: all 0.3s ease-in-out;
+        }
+
+        #advent-link:hover {
+            color: #fff;
+            text-shadow: 0 0 16px #0f0;
+        }
+
+
+
+
+
+    </style>
+</head>
+
+<script>
+    function spawnStar() {
+        const star = document.createElement("img");
+        let isStar = false;
+
+        const r = Math.random() * 3;
+        if (r > 1){
+            star.src = "/static/star.png";
+            isStar = true;
+        } else if (r > 3/4) {
+            star.src = "/static/soon.png";
+        } else if (r > 2/4) {
+            star.src = "/static/socks.png";
+        } else if (r > 1/4) {
+            star.src = "/static/present.png";
+        } else {
+            star.src = "/static/hat.webp";
+        } 
+
+        star.className = "star";
+        star.className = "star";
+
+        size = 16 + Math.random() * 240;
+        if (!isStar){
+            size *= 0.7
+        }
+        const x = Math.random() * window.innerWidth;
+        const y = Math.random() * window.innerHeight;
+        const scale = 0.5 + Math.random() * 1.5;
+        const duration = (!isStar) ? 8 : 1.0 + Math.random() * 3.0;
+
+        star.style.left = `${x}px`;
+        star.style.top = `${y}px`;
+        star.style.width = `${size}px`;
+        star.style.setProperty('--scale', scale);
+
+        document.body.appendChild(star);
+
+        setTimeout(() => {
+            star.remove();
+        }, duration * 1000);
+    }
+
+    setInterval(spawnStar, 300);
+</script>
+
+<body>
+    <h2>
+      Waiting for Christmas Eve...
+      <img src="/static/rose.png" alt="rose"
+     style="
+        height: 2em;
+        vertical-align: middle;
+        image-rendering: pixelated;
+        filter: brightness(3) drop-shadow(0 0 6px #0f0);
+        margin-top: -18px;
+        margin-left: -15px;
+     ">
+    </h2>
+
+    <div id="countdown"></div>
+
+    <a id="advent-link"
+       href="https://adventar.org/calendars/12609"
+       target="_blank">
+       xrekkusu's Advent Calendar
+    </a>
+
+    <script>
+        const resetTime = new Date({{ t|tojson }});
+
+        function pad(n) { return n.toString().padStart(2, "0"); }
+
+        function tick() {
+            const now = new Date();
+            let diff = resetTime - now;
+            if (diff < 0) diff = 0;
+
+            const s = Math.floor(diff / 1e3) % 60;
+            const m = Math.floor(diff / 6e4) % 60;
+            const h = Math.floor(diff / 3.6e6) % 24;
+            const d = Math.floor(diff / 8.64e7);
+
+            document.getElementById("countdown").textContent =
+                `${d}:${pad(h)}:${pad(m)}:${pad(s)}`;
+        }
+
+        tick();
+        setInterval(tick, 1000);
+    </script>
+</body>
+</html>
