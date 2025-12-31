@@ -4,6 +4,7 @@
 
 |Name|Category|Solves|CTF|Concept|
 |---|---|---|---|---|
+|[RBG](https://github.com/soon-haari/my-ctf-challenges/blob/main/daily-alpacahack-2025-12-30)|Crypto|81|Daily Alpacahack|RSA, LCG|
 |[HammingDiet](https://github.com/soon-haari/my-ctf-challenges/blob/main/2025-hammingdiet)|Crypto|4|Christmas|Mersenne Twister|
 |[Jerry's flag checker](https://github.com/soon-haari/my-ctf-challenges/blob/main/Alpacahack-round-13/jerrys-flag-checker)|Crypto|21|Alpacahack round 13|Encoding, Oracle|
 |[Jerr0-day](https://github.com/soon-haari/my-ctf-challenges/blob/main/Alpacahack-round-13/jerr0-day)|Crypto|8|Alpacahack round 13|Elliptic Curve, Pairing|

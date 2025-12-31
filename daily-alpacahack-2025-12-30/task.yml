@@ -1,0 +1,44 @@
+---
+name: RBG
+canonicalName: rbg
+description: |
+  RBG stands for **R**SA + S**B**G + LC**G**!
+  To learn about them, please check out [lecture1.mp4](https://panda.lovethosetrains.com/lecture1.mp4).
+  - [RSA](https://panda.lovethosetrains.com/lecture1.mp4#t=1600), [LCG](https://panda.lovethosetrains.com/lecture1.mp4#t=2370)
+
+  <details>
+  <summary>Beginner Hint: Very Hard</summary>
+
+  - この問題の難易度は **Very Hard** です。
+  - Very Hard は、考察要素が強く、典型的手法をそのまま適用するだけでは解くことが難しい問題に対して設定しています。
+  - この問題もその一つで、発想がいくらか求められる面白い問題です。ぜひ挑戦してみてください。
+  - 初心者は自力のみで解き切るのは難しいですが、途中で詰まった場合は適宜 AI も駆使して、少しずつ理解を深めながら、解法の糸口を探ることをおすすめします。
+
+  </details>
+
+descriptionJa: |
+  RBG stands for **R**SA + S**B**G + LC**G**!
+  To learn about them, please check out [lecture1.mp4](https://panda.lovethosetrains.com/lecture1.mp4).
+  - [RSA](https://panda.lovethosetrains.com/lecture1.mp4#t=1600), [LCG](https://panda.lovethosetrains.com/lecture1.mp4#t=2370)
+
+  <details>
+  <summary>初心者向けヒント: Very Hard について</summary>
+
+  - この問題の難易度は **Very Hard** です。
+  - Very Hard は、考察要素が強く、典型的手法をそのまま適用するだけでは解くことが難しい問題に対して設定しています。
+  - この問題もその一つで、発想がいくらか求められる面白い問題です。ぜひ挑戦してみてください。
+  - 初心者は自力のみで解き切るのは難しいですが、途中で詰まった場合は適宜 AI も駆使して、少しずつ理解を深めながら、解法の糸口を探ることをおすすめします。
+
+  </details>
+
+flag: Alpaca{Thanks_SuperBeetleGamer!}
+flagFormat: Alpaca{...}
+categories:
+  - crypto
+tags: []
+authors:
+  - soon-haari
+openAt: 2025-12-30 00:00:00+09:00
+archiveAt: 2025-12-31 00:00:00+09:00
+isListed: true
+isArchived: false
